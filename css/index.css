@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+#container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#formContainer {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Negrito */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%; 
+    margin-bottom: 10px; /
+}
+
+#cadastrarBtn {
+    background-color: #007bff; 
+}
+
+#loginBtn {
+    background-color: #ffc107; 
+}
+
+#voltaBtn, .voltarBtn {
+    background-color: brown;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
