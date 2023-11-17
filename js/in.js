@@ -23,6 +23,8 @@ function fazerLogin() {
 function irParaCadastro() {
     window.location.href = 'cadastro.html';
 }
+
+
 document.body.style.backgroundImage = "url('imgs/homi.jpg')";
 document.body.style.backgroundSize = "cover";
 document.body.style.backgroundRepeat = "no-repeat";
