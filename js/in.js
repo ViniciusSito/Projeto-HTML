@@ -4,7 +4,7 @@ function fazerLogin() {
     var senha = document.getElementById('password').value;
   
     if (usuario && senha) {
-      var usuariosCadastrados = JSON.parse(localStorage.getItem('usuarios')) || [];
+      var usuariosCadastrados = JSON.parse(localStorage.getItem('usuarios'));
   
       var usuarioValido = usuariosCadastrados.find(function (usuarioCadastrado) {
         return usuarioCadastrado.usuario === usuario && usuarioCadastrado.senha === senha;

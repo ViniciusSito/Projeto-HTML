@@ -3,7 +3,7 @@ function cadastrarUsuario() {
     var novaSenha = document.getElementById('cadastroPassword').value;
 
     if (novoUsuario && novaSenha) {
-      var usuariosCadastrados = JSON.parse(localStorage.getItem('usuarios')) || [];
+      var usuariosCadastrados = JSON.parse(localStorage.getItem('usuarios'));
 
       var usuarioExistente = false;
       var index = 0;
@@ -15,7 +15,6 @@ function cadastrarUsuario() {
         }
         index++;
       }
-
       if (usuarioExistente) {
         alert('Usuário já cadastrado.');
       } else {
